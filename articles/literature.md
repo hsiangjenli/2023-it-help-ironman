@@ -17,6 +17,21 @@
 ## Leonid Zhukov
 - [個人網站](http://www.leonidzhukov.net/hse/2021/networks/index.html)
 
+## Federico Battiston
+- [個人網站](https://people.ceu.edu/federico_battiston)
+- [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=aDf1nroAAAAJ&view_op=list_works&sortby=pubdate)
+
+## Márton Karsai
+- [個人網站](https://www.martonkarsai.com/home)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=Pl9cdEYAAAAJ&view_op=list_works&sortby=pubdate)
+
+## Petra Kralj Novak
+- [個人網站](https://people.ceu.edu/petra_kralj-novak)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=P5_RcIQAAAAJ&view_op=list_works&sortby=pubdate)
+
+## Duncan J Watts
+- [個人網站](https://duncanjwatts.com)
+
 ## Yizhou Sun
 - [實驗室網站](https://ucla-dm.github.io/DM_website/index.html)
 
@@ -30,4 +45,6 @@
 - [Google scholar](https://scholar.google.co.in/citations?hl=zh-TW&user=RaINcuUAAAAJ&view_op=list_works&sortby=pubdate)
 
 # 該領域 Conference
-- NetSci
+- ACM - KDD: Knowledge Discovery and Data Mining Results
+- [NetSci](https://netsci2023.wixsite.com/netsci2023)
+- [COMPLENET](https://complenet.weebly.com)
