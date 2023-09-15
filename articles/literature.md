@@ -48,3 +48,4 @@
 - ACM - KDD: Knowledge Discovery and Data Mining Results
 - [NetSci](https://netsci2023.wixsite.com/netsci2023)
 - [COMPLENET](https://complenet.weebly.com)
+- [The Knowledge Graph Conference](https://www.knowledgegraph.tech)

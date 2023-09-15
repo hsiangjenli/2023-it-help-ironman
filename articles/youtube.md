@@ -1,0 +1,2 @@
+- [Neo4j - 1 - A Universe of Knowledge Graphs](https://youtu.be/Ei-pYtYS6UY?si=2y-HfYzj_cA6XLz7)
+- [Network theory - Marc Samet](https://youtu.be/eM1KaaTez0A?si=qVO7nAeapr_56U46)
