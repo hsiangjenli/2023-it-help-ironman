@@ -32,5 +32,6 @@
 |Self-loop||
 |Hypergraph||
 |Dynamic Graph||
+
 ## 參考資料
 - [Leonid Zhukov, Ilya Makarov : Network Science - Introduction to network science](http://www.leonidzhukov.net/hse/2021/networks/lectures/lecture1.pdf)
