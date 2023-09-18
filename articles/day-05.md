@@ -1,6 +1,4 @@
-# Day-05
-
-## Graph 的資料結構
+# Day-05-Graph 的資料結構
 ## Adjacency Matrix
 
 ![](../image/image-35.png)
