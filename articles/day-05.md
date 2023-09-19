@@ -36,10 +36,6 @@ $Value = \begin{cases}\phantom{1} -1 & \text{if \textbf{edge} \space leaves vert
 > 時間複雜度（確認節點之間有沒有連結）：$O(E)$  
 > 適用場景： 稀疏圖、有向圖
 
-<!-- |Adjacency Matrix|Adjacency List|Incidence matrix|
-|:--------------:|:------------:|:--------------:|
-|![](./../image/image-26.png)|![](./../image/image-27.png)|| -->
-
 ## 參考資料
 - [Graph Data Structure And Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 - [Adjacency matrix meaning and definition in DSA](https://www.geeksforgeeks.org/adjacency-matrix-meaning-and-definition-in-dsa/)
