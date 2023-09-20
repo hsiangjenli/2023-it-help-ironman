@@ -32,9 +32,12 @@ Adjacency List 是一種以每個節點作為鍵（key），並與其相連的�
 
 $Value = \begin{cases}\phantom{1} -1 & \text{if \textbf{edge} \space leaves vertex,}\\\hphantom{--}1 & \text{if \textbf{edge} \space enters vertex,} \\\hphantom{--}0 & \text{otherwise}\end{cases}$
 
+橫向為節點以及縱向為邊的資料結構。裡面的值為 -1, 0, 1，代表該邊是由該節點往外指向其他節點、沒有邊或是指向該節點。
+
 > 所需空間：$O(V\times E)$  
 > 時間複雜度（確認節點之間有沒有連結）：$O(E)$  
 > 適用場景： 稀疏圖、有向圖
+
 
 ## 參考資料
 - [Graph Data Structure And Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
