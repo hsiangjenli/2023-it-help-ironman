@@ -15,6 +15,8 @@
 - [開源資料集](http://snap.stanford.edu/data/)
 - [CS224](http://web.stanford.edu/class/cs224w/)
 
+### Kaidi Cao
+- [個人網站](https://ai.stanford.edu/~kaidicao/)
 ## Leonid Zhukov
 - [個人網站](http://www.leonidzhukov.net/hse/2021/networks/index.html)
 
@@ -50,3 +52,7 @@
 - [NetSci](https://netsci2023.wixsite.com/netsci2023)
 - [COMPLENET](https://complenet.weebly.com)
 - [The Knowledge Graph Conference](https://www.knowledgegraph.tech)
+
+# 線上學習資源
+- [Stanford CS224W: Machine Learning with Graphs](https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn)
+- [Pytorch Geometric Tutorial](https://antoniolonga.github.io/Pytorch_geometric_tutorials/index.html)
