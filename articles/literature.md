@@ -13,6 +13,7 @@
 - [開源專案 - pyG]()
 - [開源專案 - Open Graph Benchmark]()
 - [開源資料集](http://snap.stanford.edu/data/)
+- [CS224](http://web.stanford.edu/class/cs224w/)
 
 ## Leonid Zhukov
 - [個人網站](http://www.leonidzhukov.net/hse/2021/networks/index.html)

@@ -1,4 +1,4 @@
-# Day-06-Network Properties
+# Day-06-Descriptive Network Analysis
 
 了解到可以使用哪些資料結構儲存圖之後，接下來的第一步就是了解這個圖的性質。也就是資料分析的第一步，了解你的資料集。
 
@@ -33,7 +33,7 @@ Diameter 是指圖中『最長的最短路徑』，也就是圖中兩個節點�
 - 實際公式 : $C_{i} = \frac {2E_{i}}{n_{i}(n_{i}-1)}$
 
 ### Global Clustering Coefficient（網絡中形成三角形的機會）
-![](../image/image-43.png)
+![](../image/image-45.png)
 
 主要是用來衡量整個網絡中聚集程度的指標。它衡量了網絡中形成三角形的程度，也可以理解成在所有三元組（由三個節點組成，它們之間有兩條連接，triplets）中形成封閉三角形的機會。
 
