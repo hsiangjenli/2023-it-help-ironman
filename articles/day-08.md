@@ -7,7 +7,7 @@ Watts-Strogatx model 是用來產生具有 small-world 性質的 rqandom graph �
 small world model 有一個很著名的實驗，叫做 six-degree of separation（六度分隔）。這個實驗是由 Stanley Milgram 在 1967 年所提出的。實驗內容為 Stanley Milgram 寄出 60 封信給參加者，並且要求參加者將信轉交給他們認識的人，但是只能透過朋友轉交。最後，Stanley Milgram 發現平均只需要 6 個人就可以將信轉交給目標（實際成功寄回到目的的只有 5%）。
 
 因此，這個實驗想傳達的資訊是人與人的聯繫比你所預想的還要更加的緊密。
-## 數學公式推導
+## Small World 數學公式推導
 
 1. 假設平均 degree（平均有幾個 neighbor）：$\left\langle k \right\rangle$
 1. Distance = 1 的時候，我們會有 $\left\langle k \right\rangle$ 個節點
@@ -21,5 +21,12 @@ small world model 有一個很著名的實驗，叫做 six-degree of separation�
 1. 所以當 Distance = $d_{max}$ 的時候，我們就會有 $\left\langle k \right\rangle ^{d_{max}}$ 個節點，也就是 $N$
 1. $\left\langle k \right\rangle ^{d_{max}} = N$，使用換底公式後，我們可以得到 $d_{max} = \frac{ln(N)}{ln(\left\langle k \right\rangle)}$
 
-## 範例
+## Small World 範例
 ...
+
+## Watts–Strogatz model - Psuedo Code
+
+
+## 參考資料
+- [Network Science](http://networksciencebook.com/chapter/3#small-worlds)
+- [NetworkX - watts_strogatz_graph](https://networkx.org/documentation/stable/_modules/networkx/generators/random_graphs.html#watts_strogatz_graph)
