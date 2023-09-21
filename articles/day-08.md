@@ -20,3 +20,6 @@ small world model 有一個很著名的實驗，叫做 six-degree of separation�
 1. 這邊假設 $\left\langle k \right\rangle$ 是一個遠大於 1 的數字，我們就可以把 -1 省略掉
 1. 所以當 Distance = $d_{max}$ 的時候，我們就會有 $\left\langle k \right\rangle ^{d_{max}}$ 個節點，也就是 $N$
 1. $\left\langle k \right\rangle ^{d_{max}} = N$，使用換底公式後，我們可以得到 $d_{max} = \frac{ln(N)}{ln(\left\langle k \right\rangle)}$
+
+## 範例
+...
