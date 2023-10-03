@@ -16,6 +16,8 @@
 - 用微觀一點的角度來看，就是要最大化任兩點連接的機率
   - ${p^{(1)}}({v_i},{v_j}) = \frac{1}{{1 + \exp (- {y_i}^T{y_j})}}$ 
 
+$\mathcal{O}_{max}^{(2)} = \mathop {\max} \sum _{{\lbrace v_i, v_j\rbrace} \in \mathcal{P}} {\log {p^{(2)}}({v_j}|{v_i})}$
+
 > **objective function**
 >
 > 但因為最佳化的目標是所有節點，所以要把它們都加總起來  
