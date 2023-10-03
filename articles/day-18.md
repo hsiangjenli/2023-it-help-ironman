@@ -28,8 +28,12 @@
 
 #### Minimizing Distance-Based Loss
 
-node proximity 可以使用 node embedding 來計算或是藉由觀察邊計算出。
-
+node proximity 有兩種方法可以計算出，一種是使用 first-order proximity，另一藉由觀察邊計算出 empirical probability。
+- node embedding 的方式可以使用 first-order proximity 的公式來計算
+  - ${p^{(1)}}({v_i},{v_j}) = \frac{1}{{1 + \exp (- {y_i}^T{y_j})}}$
+- empirical probability 可以藉由觀察邊來計算
+   - $A_{ij}/\sum \nolimits _{{e_{ij}} \in E} {A_{ij}}$
+   - $A_{ij}$ 是 edge 的權重
 
 
 
