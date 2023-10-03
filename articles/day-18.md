@@ -63,5 +63,3 @@ node proximity 的計算方式
 > **objective function**
 > 
 > $\mathcal{O}_{min}^{(2)} = \mathop {\min} - \sum _{{e_{ij}} \in E} {A_{ij}\log {p^{(2)}}({v_j}|{v_i})}$
-
-#### Minimizing Margin-Based Ranking Loss
