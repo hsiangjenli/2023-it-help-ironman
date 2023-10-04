@@ -30,4 +30,20 @@
 ### Graph Kernel
 意思是整個 graph 可以被分解成包含所有的 substructure 的向量。
 
-grpah kernel 是 R-convolution kernel 的實例，但是是屬於一種更通用的方式，使用遞迴的方式來分解結構化的物件。
+graph kernel 有兩種功能（？）：
+1. grpah kernel 是 R-convolution kernel 的實例，但是是屬於一種更通用的方式，使用遞迴的方式來分解結構化的物件。
+1. 可以將 graph kernel 當作 graph 的向量，並且使用 inner product 來計算兩個 graph 之間的相似度。
+
+graph kernel 有三種類型：
+1. graphlet
+1. subtree patterns
+1. random walk
+
+#### graphlet
+graphlet 是一個大小為 k 非同構的子圖。假設有一個 $G$，可以被分解成不同的 graphlet，使用 { $g_{1}, g_{2} ... g_{d}$ } 表示。然後使用特殊的方式將這些 graphlet 轉換成 d 維的向量，這個向量稱為 $y_{G}$，這個向量中的每一個元素代表的是 $G$ 中包含 $g_{i}$ 的個數。
+
+#### subtree patterns
+在這個 kernel 裡面，graph 會被分解成它的 subtree patterns。
+
+#### random walk
+在這個 kernel 裡面，graph 會被分解成隨機路徑。並且會記錄下這種路徑的出現次數，這些特徵可以用來當作這個 graph 的特徵。
