@@ -28,3 +28,6 @@
 > - $f_r(h,t)$ 代表的是針對關係 r，在 embedding 中 head 跟 tail 的距離分數。
 
 ### Graph Kernel
+意思是整個 graph 可以被分解成包含所有的 substructure 的向量。
+
+grpah kernel 是 R-convolution kernel 的實例，但是是屬於一種更通用的方式，使用遞迴的方式來分解結構化的物件。
