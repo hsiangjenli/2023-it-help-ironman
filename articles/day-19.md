@@ -1,4 +1,4 @@
-# Day-18-Paper Reading -- Graph Embedding - 續
+# Day-19-Paper Reading -- Graph Embedding - 續
 
 ## Graph Embedding Techniques
 ### Edge Reconstruction Based Optimization
