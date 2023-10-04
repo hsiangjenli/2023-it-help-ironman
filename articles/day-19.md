@@ -24,3 +24,7 @@
 > 
 > $\mathcal{O}_{rank}^{kg} = \min \mathop{\sum}_{{<h,r,t> \in \mathcal{S}, \atop <h^{\prime},r,t^{\prime}>
  \notin \mathcal{S}}} \max \lbrace 0,\gamma + f_r(h,t)-f_r(h^{\prime},t^{\prime})\rbrace$
+> knowledge graph 是由三元組所組成，分別是 <head, realation, tail>，所以 objective function 要稍微修改
+> - $f_r(h,t)$ 代表的是針對關係 r，在 embedding 中 head 跟 tail 的距離分數。
+
+### Graph Kernel
