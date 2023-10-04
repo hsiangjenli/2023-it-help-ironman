@@ -8,7 +8,7 @@
 
 重點在於一個點的 embedding 跟其他相關的 node 的 embedding 應該要比其他不相關的 node 的 embedding 要更接近。
 
-> **objective function**
+> **objective function（normal）**
 > 
 > $\mathcal{O}_{rank} = \min \sum \limits _{v_i^+ \in V_i^+} \sum \limits _{v_i^- \in V_i^-} \max \lbrace 0,\gamma -
  s(v_i, v_i^+)+s(v_i, v_i^-)\rbrace$
@@ -19,3 +19,8 @@
 > 目標是：  
 > 1. min loss rank
 > 1. max $s(v_i, v_i^+)$ 跟 $s(v_i, v_i^+-)$ 之間的 margin
+
+> **objective function（knowledge graph embedding）**
+> 
+> $\mathcal{O}_{rank}^{kg} = \min \mathop{\sum}_{{<h,r,t> \in \mathcal{S}, \atop <h^{\prime},r,t^{\prime}>
+ \notin \mathcal{S}}} \max \lbrace 0,\gamma + f_r(h,t)-f_r(h^{\prime},t^{\prime})\rbrace$
