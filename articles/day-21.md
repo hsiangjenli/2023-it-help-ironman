@@ -34,4 +34,40 @@
 > ![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bib/23/1/10.1093_bib_bbab340/1/m_bbab340f3.jpeg?Expires=1699425920&Signature=ck8wadfNgxhfelncL7t~vaLbeuDmcW0ROIj1yNOPFpYBzYQxm7qxVm3pMgl7fWp9i6UvdKBLDVliWlAr6VHJrjJ~WNdrZBzrC15EMWLkwoOqCMxlj7nFoQ0zjsXPX-f6X8bJ1bhR676WsOxACubdvlvb3RiVPu0mr~c0cVaUw0i5XXZijGkVEXe~LNAcsAY0UQjIHvfQEk8wnz8S0AMLk9dJCGtnsrFaTgfY~VBkny0-syL-D-n7yiUzaiTMZ6fWlyeCM3MxdBlYaqsPDqHpT3kn776vOb0yCZiF8FXRAG88nIAUwEkirx4JmBzoY3ybO7kbYpIqDfuE2ovfUujisA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 > > 圖片來源：Graph representation learning in bioinformatics: trends, methods and applications（https://doi.org/10.1093/bib/bbab340）
 > 
-> 
+> 這篇 paper 跟上一篇 paper 最主要的差別就是這篇 paper 比較沒有特別把 objective function 寫出來，但是因為這篇是比較新的 paper，所以提到了許多新的 graph embedding 的方法。
+
+其中，我對 heterogeneous graph 跟 attribute graph 的定義有點好奇差別在哪裡，所以著重在解釋這兩種 graph 的差別。其他介紹不同 embedding 的方法的部分就先跳過。
+
+### Heterogeneous graph embedding
+>  node 跟 edge 都會有不同的屬性。
+
+heterogeneous graph embedding 的方法大致可以分成三種：
+1. meta-path-based  
+   從內文看起來 meta-path-based 的方法應該是 random walk 的變體，主要的差別在於 meta-path 會限制住 random walk 的方向，減少在 heterogeneous graph 上的 traversal 的複雜度。
+1. decomposition-based  
+   把 heterogeneous graph 分解成比較小的 homogeneous 或是 bipartite graph。
+1. deep learning-based methods
+
+
+### Attribute graph embedding
+> node 會有不同的屬性，但是 edge 的屬性都是一樣的。
+
+## Open source resources
+### 開源框架
+- [OpenNE](https://github.com/thunlp/OpenNE/tree/pytorch)
+- [CogDL](https://github.com/THUDM/cogdl)
+- [PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric)
+- [Deep Graph Library (DGL)](https://github.com/dmlc/dgl)
+- [Dive into Graphs (DIG)](https://github.com/divelab/DIG)
+- [Graphvite](https://github.com/deepgraphlearning/graphvite)
+- [Graph-Learn](https://github.com/alibaba/graph-learn)
+- [Paddle Graph Learning (PGL)](https://github.com/PaddlePaddle/PGL)
+
+### open-source implementations of graph representation learning algorithms
+> 這邊挑幾個有趣的，改天來看看到底這些方法是怎麼實作的。
+1. [homogenous - GraRep](https://github.com/ShelsonCao/GraRep)
+1. [homogenous - HOPE](http://git.thumedia.org/embedding/HOPE)
+1. [homogenous - Deepwalk](https://github.com/phanein/deepwalk)
+1. [Heterogeneous - metapath2vec](https://ericdongyx.github.io/metapath2vec/m2v.html)
+1. [Heterogeneous - GATNE](https://github.com/THUDM/GATNE)
+
