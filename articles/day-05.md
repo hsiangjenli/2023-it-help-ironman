@@ -48,3 +48,4 @@ $Value = \begin{cases}\phantom{1} -1 & \text{if \textbf{edge} \space leaves vert
 - [What is Incidence Matrix?](https://www.electrical4u.com/what-is-incidence-matrix/)
 - [Incidence matrix instead of adjacency matrix](https://stackoverflow.com/questions/3667714/incidence-matrix-instead-of-adjacency-matrix)
 - [稀疏矩阵格式(COO、CSR、CSC)及其编码解码](https://blog.csdn.net/qq_42812089/article/details/111637471)
+- 稀疏矩陣格式 COO, CSR, CSC, BSR, and BSC.
