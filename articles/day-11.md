@@ -37,3 +37,4 @@ NetworkX 有提供隨機生成圖的功能（`erdos_renyi_graph` `watts_strogatz
 - [Leonid Zhukov - Network Science](http://www.leonidzhukov.net/hse/2021/networks/index.html)
    - [Youtube](https://www.youtube.com/c/LeonidZhukov)
 - [Albert-László Barabási - Network Science](http://networksciencebook.com)
+- [Antonio Longa - GNN](https://www.youtube.com/@94longa2112/videos)

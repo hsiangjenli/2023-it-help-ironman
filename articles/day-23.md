@@ -8,6 +8,8 @@
 
 今天先 focus 在 `aggregation operators` 這個部分，根據官網的說明，aggregation operators 在 message passing 中扮演很重要的角色。
 
+> ChatGPT：在訊息傳遞過程中，每個節點會收到來自其鄰居節點的訊息。這些訊息需要被聚合成一個新的特徵表示，以反映節點及其鄰居的狀態。如果在 forward 過程中不使用聚合操作，就無法適當地整合來自鄰居的訊息。這樣會導致模型無法有效地利用圖結構，失去了 GNN 的基本特點。
+
 在 [github issue](https://github.com/pyg-team/pytorch_geometric/issues/4712) 中作者有解釋到為何會有這個 aggregation operators。主要是因為 aggregation 這個概念在 message passing 跟 global readouts 中都有用到，但是在使用上是分開的，所以作者希望可以把這兩個部分統一起來，更方便重複使用。
 
 裡面有介紹幾種不同的 aggregation operators 它們的特色。像是比較基本的 mean aggregation 可以抓到 neighborhood 的 distribution；max aggregation 可以找到最具代表性的 element；sum aggregation 可以學到 structural graph properties，像是 degree 之類的資訊。
@@ -37,3 +39,4 @@
 
 - [A Principled Approach to Aggregations](https://medium.com/@pytorch_geometric/a-principled-approach-to-aggregations-983c086b10b3)
 - [[Roadmap] torch_geometric.nn.aggr](https://github.com/pyg-team/pytorch_geometric/issues/4712)
+- [基于消息传递框架的图卷积网络( Pytorch Geometric版)](https://blog.csdn.net/qq_26593695/article/details/115680427)
