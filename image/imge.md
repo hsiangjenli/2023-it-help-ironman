@@ -9,3 +9,14 @@ selects a subset of nodes from the original graph to construct a coarsened graph
 Tuned hyper-parameters
 ![Alt text](image-53.png)
 ![Alt text](image-54.png)
+![Alt text](image-55.png)
+![Alt text](image-56.png)
+![Alt text](image-57.png)
+![Alt text](image-58.png)
+
+
+
+![Alt text](image-59.png)
+![Alt text](image-60.png)
+![Alt text](image-61.png)
+![Alt text](image-62.png)
