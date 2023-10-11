@@ -1,3 +1,4 @@
-# Day-26 pyG 的 Loader 作用
+# Day-26 安裝圖資料庫 memgraph & 與 python 連結
 
-## Loader
+## Reference
+- [How to Use Memgraph With Python and Jupyter Notebooks](https://memgraph.com/blog/memgraph-with-python-and-jupyter-notebooks)
