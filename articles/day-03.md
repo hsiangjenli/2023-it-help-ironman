@@ -55,3 +55,4 @@
 - [Hypergraph Learning: Methods and Practices](https://ieeexplore.ieee.org/abstract/document/9264674)
 - [What is a Hypergraph?](https://blog.finxter.com/2-min-computer-science-concepts-what-is-a-hypergraph/)
 - [Deep learning on dynamic graphs](https://blog.twitter.com/engineering/en_us/topics/insights/2021/temporal-graph-networks)
+- [Social Network Analysis 101: Ultimate Guide](https://visiblenetworklabs.com/guides/social-network-analysis-101/)

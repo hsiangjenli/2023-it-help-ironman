@@ -59,6 +59,12 @@ Jure Leskovec 教授則是開源很多跟 Graph 相關的專案，像是 pyG、O
 ### Hanghang Tong
 - [Google scholar](https://scholar.google.co.in/citations?hl=zh-TW&user=RaINcuUAAAAJ&view_op=list_works&sortby=pubdate)
 
+### Alexander J. Gates
+- [個人網站](http://alexandergates.net)
+
+### Frank Takes
+- [個人網站](https://liacs.leidenuniv.nl/~takesfw/)
+- [實驗室網站](https://cns.liacs.nl)
 ## Conference
 - ACM - KDD: Knowledge Discovery and Data Mining Results
 - [COMPLENET](https://complenet.weebly.com)

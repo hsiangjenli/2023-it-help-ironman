@@ -38,3 +38,7 @@ NetworkX 有提供隨機生成圖的功能（`erdos_renyi_graph` `watts_strogatz
    - [Youtube](https://www.youtube.com/c/LeonidZhukov)
 - [Albert-László Barabási - Network Science](http://networksciencebook.com)
 - [Antonio Longa - GNN](https://www.youtube.com/@94longa2112/videos)
+- [Social Network Analysis for Computer Scientists](https://liacs.leidenuniv.nl/~takesfw/SNACS/)
+
+## 參考用書
+- [Practical Social Network Analysis with Python](https://link.springer.com/book/10.1007/978-3-319-96746-2)
