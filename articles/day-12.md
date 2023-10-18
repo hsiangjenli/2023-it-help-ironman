@@ -65,6 +65,10 @@ Jure Leskovec 教授則是開源很多跟 Graph 相關的專案，像是 pyG、O
 ### Frank Takes
 - [個人網站](https://liacs.leidenuniv.nl/~takesfw/)
 - [實驗室網站](https://cns.liacs.nl)
+
+### Islem Rekik
+- [實驗室網站](https://basira-lab.com)
+
 ## Conference
 - ACM - KDD: Knowledge Discovery and Data Mining Results
 - [COMPLENET](https://complenet.weebly.com)
