@@ -25,7 +25,7 @@ Diameter 是指圖中『最長的最短路徑』，也就是圖中兩個節點�
 
 ## Clustering Coefficient
 ### Local Clustering Coefficient（單一節點）
-![](../image/image-41.png)
+![](../../images/image-41.png)
 主要是計算單一個節點與其鄰居節點之間的連接緊密程度。
 
 - $E_{i}$ : 節點 $i$ 的相鄰節點之間的邊數  
@@ -33,7 +33,7 @@ Diameter 是指圖中『最長的最短路徑』，也就是圖中兩個節點�
 - 實際公式 : $C_{i} = \frac {2E_{i}}{n_{i}(n_{i}-1)}$
 
 ### Global Clustering Coefficient（網絡中形成三角形的機會）
-![](../image/image-45.png)
+![](../../images/image-45.png)
 
 主要是用來衡量整個網絡中聚集程度的指標。它衡量了網絡中形成三角形的程度，也可以理解成在所有三元組（由三個節點組成，它們之間有兩條連接，triplets）中形成封閉三角形的機會。
 
@@ -47,7 +47,7 @@ Diameter 是指圖中『最長的最短路徑』，也就是圖中兩個節點�
 - 邊的總數量
 
 ### Connectedness（連通性）
-![](../image/image-44.png)
+![](../../images/image-44.png)
 描述網絡中是否存在孤立的部分，簡單來說就是圖中的所有節點是否都可以連通
 
 ### Transitivity

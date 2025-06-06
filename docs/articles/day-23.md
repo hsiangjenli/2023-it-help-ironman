@@ -2,7 +2,7 @@
 
 在 `torch_geometric.nn` 中有很多 Module 可以使用，希望可以稍微了解一下這些 Module 的使用情境。
 
-![](../image/image-50.png)
+![](../../images/image-50.png)
 
 ## Aggregation Operators
 

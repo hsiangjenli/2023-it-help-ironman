@@ -141,4 +141,4 @@ def output_vis():
 
 output_vis()
 ```
-![](../image/image-63.png)
+![](../../images/image-63.png)

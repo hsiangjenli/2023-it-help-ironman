@@ -10,12 +10,12 @@
 ## 安裝 memgraph
 現在在 docker 上安裝 memgraph 連指令都不用打了，直接在 extention 上安裝就好了，安裝完後就可以在 localhost:7687 看到 memgraph 的介面了。
 
-![](../image/image-55.png)
+![](../../images/image-55.png)
 
-![](../image/image-56.png)
+![](../../images/image-56.png)
 
 ## 實際操作
-![](../image/image-59.png)
+![](../../images/image-59.png)
 
 然後點選 `run query sample` 就會看到像是下面的結果。
 
@@ -25,9 +25,9 @@ MATCH (node1)-[e]->(node2) RETURN node1, e, node2 LIMIT 50;
 
 這段 query 的意思是找出符合特定模式的節點和關係。`()` 代表是 node；`[]` 代表是 edge。更多的 query 語法可以參考 [The Complete Cypher Cheat Sheet](https://memgraph.com/blog/cypher-cheat-sheet)
 
-![](../image/image-60.png)
+![](../../images/image-60.png)
 
-![](../image/image-61.png)
+![](../../images/image-61.png)
 
 ## 使用 python 連接 memgraph
 
@@ -50,7 +50,7 @@ cursor.execute("MATCH (n) RETURN n")
 row = cursor.fetchone()
 ```
 
-![](../image/image-62.png)
+![](../../images/image-62.png)
 
 ## Reference
 - [How to Use Memgraph With Python and Jupyter Notebooks](https://memgraph.com/blog/memgraph-with-python-and-jupyter-notebooks)
