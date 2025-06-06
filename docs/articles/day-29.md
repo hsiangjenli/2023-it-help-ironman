@@ -13,7 +13,7 @@
 }
 ```
 
-![](./../image/image-21.png)
+![](./../images/image-21.png)
 
 在 Day-03 的時候有稍微提到 Dynamic Graph，但是關於 Dynamic Graph 的研究相對於其他還是少了些，開源的專案基本都 focus 在 static graph 上，所以這邊就來看一下這篇論文，來稍微補一下這塊的知識。
 

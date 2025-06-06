@@ -35,7 +35,7 @@ gv.d3(G)
 
 然後就會產生像是下面的圖。
 
-![](../image/graph.png)
+![](../images/graph.png)
 
 ## 參考資料
 - [Network Science](http://networksciencebook.com/chapter/3#random-network)

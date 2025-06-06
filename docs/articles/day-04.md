@@ -1,7 +1,7 @@
 # Day-04-現實生活中有那些可以稱做圖
 
 ## 社交網路
->![](../image/image-40.png)
+>![](../images/image-40.png)
 > Node : 使用者  
 > Edge : 好友、按讚
 
@@ -17,7 +17,7 @@
 又或者是供應商的  Dependency Graph，可以參考這部[影片 Neo4j - 1 - A Universe of Knowledge Graphs](https://www.youtube.com/watch?v=Ei-pYtYS6UY&t=826s) 中的 `26:00` 左右『Small Dependency, Big Impact』，內容大概是講稍微是一家看似微不足道的供應商倒閉，造成整個產業鏈的影響，如果使用圖的方式，就可以去計算、識別出整個產業鏈中不同供應商的重要程度。
 
 ## 交通網路
-> ![](../image/image-39.png)
+> ![](../images/image-39.png)
 > Node : 捷運站  
 > Edge : 路線  
 > Weighted : 站跟站的距離  

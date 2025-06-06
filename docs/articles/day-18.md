@@ -51,7 +51,7 @@ node proximity 有兩種方法可以計算出，一種是使用 first-order prox
 > 
 > 裡面提到使用 KL divergence 當作距離函數來計算 $p^{(1)}$ 和 $\hat{p}^{(1)}$ 之間的差異，並且省略當中的常數項。
 > 但我找到的 KL divergence 的公式都跟上面的不太像。但是在[這篇文章](https://blog.csdn.net/weixin_34275246/article/details/105825529)中有到稍微類似的公式...
-> ![](../image/image-49.png)
+> ![](../images/image-49.png)
 
 ##### Second-order Proximity
 
