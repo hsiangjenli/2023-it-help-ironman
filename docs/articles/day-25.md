@@ -22,10 +22,10 @@ OGB 是 Open Graph Benchmark 的縮寫，是一個用來測試 GNN 的 benchmark
 
 再來看看 leader board 的設備，看起來要做 GNN 的話，對設備的要求還是蠻高的。
 
-![](../images/image-53.png)
+![](../../images/image-53.png)
 
 這是我用 m2 24 RAM 跑一個 Epoch 的時間，大概 10 分鐘左右。
-![](../images/image-54.png)
+![](../../images/image-54.png)
 
 
 ## Reference

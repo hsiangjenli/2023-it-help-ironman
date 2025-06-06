@@ -1,6 +1,6 @@
 # Day-24-pyG 的 `nn.Module` 中的 Pooling Layers 用處
 
-![](../images/image-51.png)
+![](../../images/image-51.png)
 > 圖片來源：[Graph Pooling for Graph Neural Networks: Progress, Challenges, and Opportunities](https://arxiv.org/pdf/2204.07321.pdf)
 
 ## 到底什麼是 graph pooling？
@@ -16,7 +16,7 @@ These methods streamline an input graph by removing less **“important”** nod
 
 ### **pooling**  
 而 pooling 的重點應該在研究有沒有一種方法可以在把 graph downsampling 後「維持原始的結構」。（所以就算是雜訊，也跟著保留下來了
-> ![](../images/image-52.png)
+> ![](../../images/image-52.png)
 >
 > 參考資料：[Graph Pooling for Graph Neural Networks: Progress, Challenges, and Opportunities](https://arxiv.org/pdf/2204.07321.pdf)
 
