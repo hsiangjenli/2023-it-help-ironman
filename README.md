@@ -4,7 +4,7 @@ This project contains my personal notes while learning about **Network Science**
 
 ## Project structure
 
-- `docs/articles` – 30 days of learning notes and related references.
+- `docs/articles` – daily notes and paper readings (some papers consolidated).
 - `src` – small Python scripts used in the posts.
 - `notebooks` – Jupyter notebooks used for experiments.
 - `images` – figures referenced by the notes.
